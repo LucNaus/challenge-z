@@ -1,0 +1,70 @@
+#rechtsboven {
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin: 3px;
+
+  }
+ #middenboven {
+     float: left;
+     height: 150px;
+     width: 150px;
+     background-color: white;
+     margin: 3px;
+    
+ }
+ #linksboven {
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 3px;
+
+}
+#linksmidden {
+    float: left;
+    height: 150px;
+    width: 306px;
+    background-color: blue;
+    margin: 3px;
+
+  }
+
+ #rechtsmidden {
+    float: left;
+    height: 306px;
+    width: 150px;
+    background-color: red;
+    margin: 3px;
+
+}
+#linksonder {
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    bottom: 156px;
+    position: relative;
+    margin: 3px;
+
+  }
+ #middenonder {
+     float: left;
+     height: 150px;
+     width: 150px;
+     background-color: yellow;
+     bottom: 156px;
+     position: relative;
+     margin: 3px;
+ }
+
+
+#container {
+    margin-top: 1%;
+    margin-right: 70%;
+}
+
+body {
+    background-color: black;
+}

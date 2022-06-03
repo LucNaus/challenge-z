@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="javascript.js"></script>
+
+
+</head>
+<body>
+    <main> 
+        <h1>Brief Generator </h1>
+        
+        <div id="tekst">
+            Beste {Firstname} {lastname}, <br />
+            <br />
+            Met groot genoegen mag ik jou, {yourfullname}, op de hoogte stellen dat jij uitverkoren bent om mee te dingen naar de speciale prijs voor {activity}. <br />
+            
+            Daarom nodig ik je uit om op {date} om {time} uur samen met {yourfriend} te verschijnen op de locatie: {location}. <br />
+
+            Wat je moet meebrengen is {stuff}. <br />
+            <br />
+            Vergeet niet om {dontforget}. <br />
+
+            We zien je graag binnenkort. <br />
+            <br />
+            Met vriendelijke groet,<br />
+            {sendername}.
+        </div>
+
+            <label>Voornaam </label>                <input type="text" name="firstname"      id="firstname"     value="bill" />
+            <label>Achternaam </label>              <input type="text" name="lastname"       id="lastname"      value="Gates" />
+            <label>Volledige Naam </label>          <input type="text" name="yourfullname"   id="yourfullname"  value=" dhr. Bill Gates" />
+            <label>activiteit </label>              <input type="text" name="activity"       id="activity"      value="bellenbalzen" />
+            <label>Datum </label>                   <input type="date" name="date"           id="date"          value="13 november" />
+            <label>Tijd </label>                    <input type="time" name="time"           id="time"          value="09:13" />
+            <label>Naam van vriend </label>         <input type="text" name="yourfriend"     id="yourfriend"    value="dhr. Steve wozinak" />
+            <label>Locatie </label>                 <input type="text" name="location"       id="location"      value="London city Towerbridge" />
+            <label>Dingen om mee te nemen </label>  <input type="text" name="stuff"          id="stuff"         value="sleutels, bril en wasmiddel" />
+            <label>Niet vergeten </label>           <input type="text" name="dontforget"     id="dontforget"    value="goed uitgerust de dag beginnen" />
+            <label>Naam afzender </label>           <input type="text" name="sendname"       id="sendname"      value="Queen Elizabeth II" />
+
+
+            <button onclick="createletter();"> maak de brief </button>
+            <fieldset>
+
+    <legend>De Brief</legend>
+            <div id="output"><div>
+    </fieldset>
+        </main>
+    </body>
+</html>

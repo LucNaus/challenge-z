@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dongle:wght@300&family=Raleway:wght@600&display=swap');
+
+html {
+    background: -webkit-linear-gradient(#f9b630 0%, #ffffff 100%);
+    width: 100%;
+     height: 100%;
+    color: #5e6059;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Chilanke', cursive; 
+} 
+
+label { 
+    display: block;
+    margin: 10px 0 0 0; 
+} 
+
+input[type=text] {
+     width: 98%;
+     border-radius: 5px;
+     height: 25px;
+     padding: 0 1% 0 1%;
+} 
+
+main { 
+    width: 60%;
+     margin: 0 auto;
+} 
+
+button { 
+    display: block;
+    width: 100%; 
+    border-radius: 10px; 
+    background: -webkit-linear-gradient(#f9a90a 0%, #ffffff 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 150%; 
+    margin: 0 auto; 
+    height: 50px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+#Output {
+     width: 100%; 
+     height: 300px; 
+     border: 2px solid white; } 
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
